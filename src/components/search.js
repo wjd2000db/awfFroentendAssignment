@@ -1,3 +1,11 @@
+/* 
+FILE          : SearchData.js
+PROJECT       : SENG3080 - Frontend Programming Assignment
+PROGRAMMER    : Yujin Jeong
+FIRST VERSION : 2025-02-08
+DESCRIPTION   : This component allows users to search for subreddits, view posts, and mark favorites.
+*/
+
 import React, { useState } from "react";
 import FavouritePosts from "./favourite";
 import "../css/search.css";

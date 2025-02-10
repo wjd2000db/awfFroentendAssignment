@@ -1,5 +1,11 @@
+/* 
+FILE          : search.css
+PROJECT       : SENG3080 - Frontend programming assignment
+PROGRAMMER    : Yujin Jeong
+FIRST VERSION : 2025-02-08
+DESCRIPTION   : App.js renders SearchData to provide a subreddit search feature and displays a header.
+*/
 
-import searchearchData from './components/search';
 import SearchData from './components/search';
 import logo from "./assets/logo.png";
 import "./css/app.css";

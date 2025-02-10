@@ -1,3 +1,11 @@
+/* 
+FILE          : search.css
+PROJECT       : SENG3080 - Frontend programming assignment
+PROGRAMMER    : Yujin Jeong
+FIRST VERSION : 2025-02-08
+DESCRIPTION   : This file has css for search.js
+*/
+
 .searchContainer {
   padding: 20px;
   border-radius: 8px;

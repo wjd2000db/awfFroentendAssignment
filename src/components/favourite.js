@@ -1,3 +1,11 @@
+/* 
+FILE          : FavouritePosts.js
+PROJECT       : SENG3080 - Frontend Programming Assignment
+PROGRAMMER    : Yujin Jeong
+FIRST VERSION : 2025-02-08
+DESCRIPTION   : This component displays the user's favorite posts and allows them to remove posts from the list.
+*/
+
 import React from "react";
 import "../css/favourite.css";  
 

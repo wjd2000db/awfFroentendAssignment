@@ -1,3 +1,11 @@
+/* 
+FILE          : app.css
+PROJECT       : SENG3080 - Frontend programming assignment
+PROGRAMMER    : Yujin Jeong
+FIRST VERSION : 2025-02-08
+DESCRIPTION   : This file has css for app.js
+*/
+
 .header {
   display: flex;
   justify-content: center;
