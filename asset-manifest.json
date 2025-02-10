@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/awfFrontendAssignment/static/css/main.7ccb1e2e.css",
-    "main.js": "/awfFrontendAssignment/static/js/main.ddfcb38e.js",
-    "static/media/logo.png": "/awfFrontendAssignment/static/media/logo.f998bd2b15ded53575a3.png",
-    "index.html": "/awfFrontendAssignment/index.html",
-    "main.7ccb1e2e.css.map": "/awfFrontendAssignment/static/css/main.7ccb1e2e.css.map",
-    "main.ddfcb38e.js.map": "/awfFrontendAssignment/static/js/main.ddfcb38e.js.map"
+    "main.css": "/awfFrontendAssignment/index.html/static/css/main.7ccb1e2e.css",
+    "main.js": "/awfFrontendAssignment/index.html/static/js/main.f4eda556.js",
+    "static/media/logo.png": "/awfFrontendAssignment/index.html/static/media/logo.f998bd2b15ded53575a3.png",
+    "index.html": "/awfFrontendAssignment/index.html/index.html",
+    "main.7ccb1e2e.css.map": "/awfFrontendAssignment/index.html/static/css/main.7ccb1e2e.css.map",
+    "main.f4eda556.js.map": "/awfFrontendAssignment/index.html/static/js/main.f4eda556.js.map"
   },
   "entrypoints": [
     "static/css/main.7ccb1e2e.css",
-    "static/js/main.ddfcb38e.js"
+    "static/js/main.f4eda556.js"
   ]
 }
