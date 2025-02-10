@@ -11,3 +11,5 @@ bower_components
 *.sublime*
 
 .env
+
+./build
