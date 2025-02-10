@@ -78,7 +78,7 @@ const SearchData = () => {
                 <h3>{post.title}</h3>
                 <button className={"buttonStyle"}
                 onClick={() => onClickFavourite(post)}>
-                favorite
+                favourite
                 </button>
                 <p>Score: {post.score}</p>
                 <a
