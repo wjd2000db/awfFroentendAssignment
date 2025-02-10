@@ -9,6 +9,11 @@ DESCRIPTION   : This component displays the user's favorite posts and allows the
 import React from "react";
 import "../css/favourite.css";  
 
+  // FUNCTION       : FavouritePosts
+  // DESCRIPTION    : Displays a list of the user's favorite posts.
+  // PARAMETERS     : favouritePosts : Array - An array of favourite posts
+//                    onRemoveFavourite : Function - A function to handle the removal of a post from favorites.
+  // RETURNS        : 
 const FavouritePosts = ({ favouritePosts, onRemoveFavourite }) => {
   return (
     <div className="favouriteContainer">

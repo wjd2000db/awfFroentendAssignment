@@ -10,15 +10,29 @@ import React, { useState } from "react";
 import FavouritePosts from "./favourite";
 import "../css/search.css";
 
+  // FUNCTION       : searchData
+  // DESCRIPTION    : Handles the search functionality, fetching data from Reddit, displaying the search results, 
+  //                  and allowing users to mark posts as favourites or remove them from favorites.
+  // PARAMETERS     : None
+  // RETURNS        : JSX element containing the search bar, search results, and favourite posts sections.
 const SearchData = () => {
   const [search, setSearch] = useState('');
   const [posts, setPosts] = useState([]);
   const [favouritePosts, setFavouritePosts] = useState([]);
 
+  // FUNCTION       : handleInputChange
+  // DESCRIPTION    : Updates the search query when the user types in the search input field.
+  // PARAMETERS     : event (object) - The event object from the input field change.
+  // RETURNS        : None
   const handleInputChange = (event) => {
     setSearch(event.target.value);
   };
 
+
+  // FUNCTION       : fetchData
+  // DESCRIPTION    : Fetches the 10 posts from the Reddit API and filters out stickied posts.
+  // PARAMETERS     : None
+  // RETURNS        : None
   const fetchData = async () => {
     try {
       const response = await fetch(`https://www.reddit.com/r/${search}/hot.json?limit=10`);
@@ -41,6 +55,10 @@ const SearchData = () => {
     }
   };
 
+  // FUNCTION       : onClickFavourite
+  // DESCRIPTION    : Adds the selected post to the list of favorite posts and stores the post ID in the local storage.
+  // PARAMETERS     : post - The post object that the user wants to set as a favourite.
+  // RETURNS        : None
   const onClickFavourite = (post) => {
     const favouriteIds = JSON.parse(localStorage.getItem("favourites")) || [];
 
@@ -51,6 +69,10 @@ const SearchData = () => {
     }
   };
 
+  // FUNCTION       : onRemoveFavourite
+  // DESCRIPTION    : Removes the selected post from the list of favorite posts and deletes the post ID from local storage.
+  // PARAMETERS     : postId : String - post id
+  // RETURNS        : None
   const onRemoveFavourite = (postId) => {
     const updatedFavourites = favouritePosts.filter(post => post.id !== postId);
     setFavouritePosts(updatedFavourites);
