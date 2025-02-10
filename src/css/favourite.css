@@ -1,0 +1,56 @@
+.favouriteContainer {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #686868;
+}
+
+.favouritePost {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.favouritePost h2 {
+  color: #822129;
+}
+
+.favouritePost h3 {
+  font-size: 18px;
+  color: #822129;
+}
+
+.favouritePost button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #822129;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.favouritePost button:hover {
+  background-color: #a83232;
+}
+
+.favouritePost p {
+  color: #666;
+  font-size: 14px;
+}
+
+.favouritePost a {
+  color: #822129;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.favouritePost a:hover {
+  text-decoration: underline;
+}
+
+.noFavourites {
+  font-size: 16px;
+  color: #666;
+}

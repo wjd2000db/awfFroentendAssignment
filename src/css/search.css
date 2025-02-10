@@ -1,0 +1,93 @@
+.searchContainer {
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  max-width: 1000px; 
+  height: 2200px;
+  margin: 20px auto;
+  display: flex; 
+  gap: 20px; 
+}
+
+.searchContent {
+  flex: 1;
+}
+
+.favouriteContent {
+  flex: 0 0 400px; 
+  border-radius: 8px;
+}
+
+.inputStyle {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #822129;
+  font-family: Arial, sans-serif;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.buttonStyle {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #822129;
+  font-family: Arial, sans-serif; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonStyle:hover {
+  background-color: #a83232;
+}
+
+.postContainer {
+  margin-top: 20px;
+}
+
+.postItem {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.postItem h3 {
+  font-size: 18px;
+  color: #822129;
+}
+
+.postItem button {
+  padding: 6px 12px;
+  font-size: 14px;
+  background-color: #822129;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color
+}
+
+.postItem button:hover {
+  background-color: #a83232;
+}
+
+.postItem p {
+  color: #666;
+  font-size: 14px;
+}
+
+.postItem a {
+  color: #822129;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.postItem a:hover {
+  text-decoration: underline;
+}
